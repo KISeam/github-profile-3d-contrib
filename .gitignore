@@ -106,7 +106,6 @@ dist0
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # yarn v2
 .yarn/cache
@@ -181,14 +180,13 @@ $RECYCLE.BIN/
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
 .history/
 
 profile-3d-contrib/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
